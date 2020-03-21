@@ -1,0 +1,41 @@
+html,
+body {
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+	height: inherit;
+}
+
+/* h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+} */
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: -1px;
+	position: fixed;
+	margin: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	color: transparent;
+	text-shadow: 0 0 4px white;
+}
